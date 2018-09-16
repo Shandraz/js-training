@@ -14,13 +14,13 @@
 function multiply(a,b) {
     let result = 0;
     if (a>= 0 && b>=0) {
-        for (let i = 0; i <= a; i++) {
+        for (let i = 0; i < a; i++) {
             result += b;
         }
     }
    
     else if (a<0) {
-        for (let i = 0; i >=a; i--) {
+        for (let i = 0; i >a; i--) {
             result -= b;
             
         }
