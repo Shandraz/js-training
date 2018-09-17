@@ -129,6 +129,6 @@
   ],
   "scripts": {
     "update": "git reset && git stash && git pull https://github.com/Shandraz/js-training.git master && git stash pop",
-    "test": "./tester basics"
+    "test": "./tester basics math get advanced"
   }
 }
